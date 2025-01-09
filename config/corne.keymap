@@ -62,7 +62,7 @@
 &trans  &kp N1            &kp N2       &kp N3           &kp N4             &kp N5    &kp N6    &kp N7    &kp N8           &kp N9     &kp N0  &kp BSPC
 &trans  &kp K_PLAY_PAUSE  &kp K_MUTE   &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &none     &kp LEFT  &kp DOWN  &kp UP           &kp RIGHT  &none   &kp PG_UP
 &trans  &kp K_COPY        &kp K_PASTE  &trans           &trans             &none     &kp HOME  &kp END   &kp PRINTSCREEN  &none      &none   &kp PG_DN
-                                       &trans           &trans             &trans    &kp INS   &mo 3     &trans
+                                       &sys_reset       &trans             &trans    &kp INS   &mo 3     &trans
             >;
         };
 
@@ -76,10 +76,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &none         &none         &none     &none     &none        &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none     &none     &none        &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans    &mo 3     &kp SPACE    &kp RET    &trans     &trans
+&trans  &kp EXCL      &kp AT        &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK   &kp LPAR  &kp RPAR  &kp BSPC
+&trans  &none         &none         &none     &none     &none        &kp MINUS  &kp EQUAL  &kp LBKT    &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &out OUT_USB  &out OUT_BLE  &none     &none     &none        &kp UNDER  &kp PLUS   &kp LBRC    &kp RBRC  &kp PIPE  &kp TILDE
+                                    &trans    &mo 3     &kp SPACE    &kp RET    &trans     &sys_reset
             >;
         };
 
